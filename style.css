@@ -7,8 +7,23 @@ body {
     display: block;
 }
 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 table {
     border-collapse: collapse;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.table-title {
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 th {
@@ -28,7 +43,7 @@ tr {
 td {
     text-align: center;
     color: #808080;
-    padding: 0 25px;
+    padding: 10px 25px;
 }
 
 .white-row {

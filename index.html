@@ -10,10 +10,12 @@
         <header>
             <h1>HTML & CSS Cheatsheet</h1>
         </header>
-        <div id="elements">
-            <h3>Elements</h3>
+        <div>
             <table>
                 <thead>
+                    <tr>
+                        <th colspan="3" class="table-title">Elements & Structure</th>
+                    </tr>
                     <tr>
                         <th class="top-left">Tag</th>
                         <th>Name</th>
@@ -109,11 +111,51 @@
                 </tbody>
             </table>
         </div>
-        <div id="tables">
-
-        </div>
-        <div id="forms">
-
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3" class="table-title">Tables</th>
+                    </tr>
+                    <tr>
+                        <th class="top-left">Tag</th>
+                        <th>Name</th>
+                        <th class="top-right">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="white-row">
+                        <td>tbody</td>
+                        <td>Table Body</td>
+                        <td>Contains all table data other than table heading and table footer content</td>
+                    </tr>
+                    <tr class="grey-row">
+                        <td>td</td>
+                        <td>Table Data</td>
+                        <td>Can be nested inside a table row element to add a cell of data to a table</td>
+                    </tr>
+                    <tr class="white-row">
+                        <td>th</td>
+                        <td>Table Heading</td>
+                        <td>Used to add titles to rows and columns of a table</td>
+                    </tr>
+                    <tr class="grey-row">
+                        <td>tfoot</td>
+                        <td>Table Footer</td>
+                        <td>Uses table rows to give footer content or to summarize content at the end of a table</td>
+                    </tr>
+                    <tr class="white-row">
+                        <td>thead</td>
+                        <td>Table Head</td>
+                        <td>Defines the headings of table columns encapsulated in table rows</td>
+                    </tr>
+                    <tr class="grey-row">
+                        <td class="bottom-left">tr</td>
+                        <td>Table Row</td>
+                        <td class="bottom-right">Used to add rows to a table before adding table data and headings</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>
